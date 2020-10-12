@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: ibnomer2011@hotmail.com\n"
 "POT-Creation-Date: 2020-08-08 18:02+0200\n"
-"PO-Revision-Date: 2020-08-31 01:45+0800\n"
+"PO-Revision-Date: 2020-10-13 06:04+0800\n"
 "Last-Translator: Musharraf Omer <ibnomer2011@hotmail.com>\n"
 "Language-Team: Rowen <manchen_0528@outlook.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: the content of a message indicating a connection error
@@ -538,7 +538,7 @@ msgstr "命名书签"
 #. Translators: label of a text entry
 #: bookworm/annotation/annotation_gui.py:190
 msgid "Bookmark name:"
-msgstr "书签名称"
+msgstr "书签名称："
 
 #. Translators: the title of a dialog to add a comment
 #: bookworm/annotation/annotation_gui.py:200
@@ -548,7 +548,7 @@ msgstr "添加注释"
 #. Translators: the label of an edit field to enter a comment
 #: bookworm/annotation/annotation_gui.py:202
 msgid "Comment:"
-msgstr "注释"
+msgstr "注释："
 
 #. Translators: title of a dialog
 #: bookworm/annotation/annotation_gui.py:215
@@ -699,7 +699,7 @@ msgstr "指定章节"
 #. to choose the section to which the search will be confined
 #: bookworm/gui/components.py:94
 msgid "Select section:"
-msgstr "所选章节"
+msgstr "所选章节："
 
 #. Translators: the lable of the OK button in a dialog
 #: bookworm/gui/components.py:177 bookworm/gui/components.py:217
@@ -726,7 +726,7 @@ msgid ""
 msgstr ""
 "此对话框可以帮助您设置文件关联。\n"
 "设置文件关联后，您在Windows资源管理器中单击文件时，默认将在Bookworm中直接打开"
-"该文件"
+"该文件 "
 
 #. Translators: the main label of a button
 #: bookworm/gui/settings.py:56
@@ -780,7 +780,7 @@ msgstr "在Bookworm中，默认情况下将所有受支持的文件类型设置�
 #. associations
 #: bookworm/gui/settings.py:114
 msgid "All registered file associations have been removed."
-msgstr "已取消所有的文件关联"
+msgstr "已取消所有的文件关联。"
 
 #. Translators: the title of a group of controls in the
 #. general settings page related to the UI
@@ -1152,7 +1152,7 @@ msgstr "在书籍中查找(&F)... \tCtrl-F"
 #: bookworm/gui/book_viewer/menubar.py:262
 #: bookworm/gui/book_viewer/menubar.py:577
 msgid "Search this book."
-msgstr "搜索本书"
+msgstr "搜索本书。"
 
 #. Translators: the label of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:267
@@ -1215,7 +1215,7 @@ msgstr "渲染页面(&R)... \tCtrl-R"
 #: bookworm/gui/book_viewer/menubar.py:396
 #: bookworm/gui/book_viewer/menubar.py:582
 msgid "View a fully rendered version of this page."
-msgstr "查看本页的渲染版本"
+msgstr "查看本页的渲染版本。"
 
 #: bookworm/gui/book_viewer/menubar.py:414
 msgid "Rendered Page"
@@ -1244,7 +1244,7 @@ msgstr "访问Bookworm的官方网站"
 #. Translators: the label of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:441
 msgid "&License"
-msgstr "许可协议(&L)..."
+msgstr "许可协议(&L)"
 
 #. Translators: the help text of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:443
@@ -1254,7 +1254,7 @@ msgstr "查看有关本程序的法律许可信息。"
 #. Translators: the label of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:448
 msgid "Con&tributors"
-msgstr "贡献者(&T)..."
+msgstr "贡献者(&T)"
 
 #. Translators: the help text of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:450
@@ -1264,7 +1264,7 @@ msgstr "查看本程序的重要贡献者列表。"
 #. Translators: the label of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:455
 msgid "&Check for updates"
-msgstr "检测更新(&C)..."
+msgstr "检测更新(&C)"
 
 #. Translators: the help text of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:457
@@ -1274,12 +1274,12 @@ msgstr "更新应用程序"
 #. Translators: the label of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:463
 msgid "&Restart with debug-mode enabled"
-msgstr "重新启动并启用调试模式(&R)..."
+msgstr "重新启动并启用调试模式(&R)"
 
 #. Translators: the help text of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:465
 msgid "Restart the program with debug mode enabled to show errors"
-msgstr "重新启动本程序，并启用调试模式以显示错误。"
+msgstr "重新启动本程序，并启用调试模式以显示错误"
 
 #. Translators: the label of an item in the application menubar
 #: bookworm/gui/book_viewer/menubar.py:475
@@ -1636,7 +1636,7 @@ msgstr "页面起始处"
 #. of the settings related to behavior during reading  aloud
 #: bookworm/text_to_speech/tts_gui.py:88
 msgid "During Reading Aloud"
-msgstr "朗读过程中："
+msgstr "朗读过程中"
 
 #: bookworm/text_to_speech/tts_gui.py:93
 msgid "Speak page number"
@@ -1742,7 +1742,7 @@ msgstr "{profile} (激活)"
 #. Translators: the label of an edit field to enter the voice profile name
 #: bookworm/text_to_speech/tts_gui.py:404
 msgid "Profile Name:"
-msgstr "配置名称"
+msgstr "配置名称："
 
 #. Translators: the title of a dialog to enter the name of a new voice profile
 #: bookworm/text_to_speech/tts_gui.py:406
@@ -1860,7 +1860,7 @@ msgstr "语音配置(&V) \tCtrl-Shift-V"
 #. Translators: the help text of an item in the application menubar
 #: bookworm/text_to_speech/tts_gui.py:551
 msgid "Manage voice profiles."
-msgstr "管理语音配置"
+msgstr "管理语音配置。"
 
 #. Translators: the label of an item in the application menubar
 #: bookworm/text_to_speech/tts_gui.py:556
